@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(155, 153, 153);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    background-color: violet;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: pink;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+input[type="submit"]:hover{
+    background-color: peachpuff;
+    
+}
